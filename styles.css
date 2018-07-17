@@ -203,7 +203,69 @@ h3 {
 /*----------end desktop styles----------*/
 /*----------start tablet styles----------*/
 
+@media screen and (max-width: 900px) {
 
+/*----------start text styles----------*/
+
+  h1 {
+    font-size: 3vw;
+    margin-bottom: 1.5vw;
+  }
+
+  p {
+    font-size: 2vw;
+    line-height: 2.8vw;
+    margin-bottom: 1.4vw;
+  }
+
+/*----------end text styles----------*/
+/*----------start intro article styles----------*/
+
+  .article-1 {
+    height: 25vh;
+    width: 60vw;
+  }
+
+  .intro-buttons button {
+    border: .2vw solid #FFFFFF;
+    font-size: 1.5vw;
+    height: 4vw;
+    line-height: 3.5vw;
+    margin-right: 1.5vw;
+    width: 14vw;
+  }
+
+  .button-icon {
+    height: 2vw;
+    margin: .5vw;
+  }
+
+/*----------end intro article styles----------*/
+/*----------start card styles----------*/
+
+  .half-width {
+    height: 25vh;
+    width: 20vw;
+  }
+
+  h3 {
+    font-size: 1.8vw;
+    margin-top: .8vw;
+  }
+
+  .card-icon {
+    width: 40%;
+  }
+
+/*----------end card styles----------*/
+
+  .spacer {
+    background-color: #B26300;
+    height: 25vh;
+    width: 40vw;
+  }
+
+}
 
 /*----------end tablet styles----------*/
 /*----------start mobile styles----------*/
