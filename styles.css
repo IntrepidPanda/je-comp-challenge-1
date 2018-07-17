@@ -71,7 +71,7 @@ p {
 
 .intro-buttons button {
   background-color: transparent;
-  border: .1vw solid #FFFFFF;
+  border: .2vw solid #FFFFFF;
   display: flex;
   font-size: 1.2vw;
   height: 3.8vw;
@@ -259,7 +259,7 @@ h3 {
 
 /*----------end card styles----------*/
 
-  .spacer {
+  .spacer-1 {
     background-color: #B26300;
     height: 25vh;
     width: 40vw;
@@ -270,6 +270,126 @@ h3 {
 /*----------end tablet styles----------*/
 /*----------start mobile styles----------*/
 
+@media screen and (max-width: 600px) {
 
+  .article-section {
+    order: 2;
+    width: 100vw;
+  }
+
+  .portrait-section {
+    justify-content: center;
+    order: 1;
+    width: 100vw;
+  }
+
+/*----------start text styles----------*/
+
+  h1 {
+    font-size: 5vw;
+    margin-bottom: .5vw;
+  }
+
+  p {
+    font-size: 3.5vw;
+    line-height: 4.5vw;
+  }
+
+/*----------end text styles----------*/
+/*----------start intro article styles----------*/
+
+  .article-1 {
+    height: 25vw;
+    padding: 2vw;
+    width: 100vw;
+  }
+
+  .intro-buttons button {
+    border: .3vw solid #FFFFFF;
+    font-size: 2.5vw;
+    height: 5vw;
+    line-height: 4vw;
+    margin-right: 2vw;
+    width: 20vw;
+  }
+
+  .button-icon {
+    height: 2.5vw;
+    margin: .8vw;
+  }
+
+/*----------end intro article styles----------*/
+/*----------start card styles----------*/
+
+  .half-width {
+    height: 25vw;
+    width: 50vw;
+  }
+
+  h3 {
+    font-size: 2.4vw;
+    margin-top: 1vw;
+  }
+
+/*----------end card styles----------*/
+/*----------start portrait article styles----------*/
+
+  .portrait-section {
+    height: 50vh;
+  }
+
+  .three-dots {
+    height: 3vw;
+    margin-top: 2vw;
+    width: 12vw;
+  }
+
+  .arrow-buttons {
+    width: 100vw;
+  }
+
+  .character-portrait {
+    width: 50vw;
+  }
+
+  .arrow-icon {
+    height: 3vw;
+  }
+
+  .white-dot {
+    border-radius: 1vw;
+    height: 2vw;
+    margin-right: .5vw;
+    width: 2vw;
+  }
+
+  .transparent-dot {
+    border-radius: 1vw;
+    height: 2vw;
+    margin-right: .5vw;
+    width: 2vw;
+  }
+
+  .left-arrow, .right-arrow {
+    border: .5vw solid rgba(255, 255, 255, .5);
+    border-radius: 3.5vw;
+    height: 7vw;
+    margin: 3vw;
+    width: 7vw;
+  }
+
+/*----------end portrait article styles----------*/
+
+  .spacer-1 {
+    display: none;
+  }
+
+  .spacer-2 {
+    background-color: #B26300;
+    height: 25vw;
+    width: 50vw;    
+  }
+
+}
 
 /*----------end mobile styles----------*/
