@@ -10,44 +10,204 @@ body {
 }
 
 /*----------NO FLEX ZONE----------*/
-/*----------start mobile styles----------*/
+/*----------start desktop styles----------*/
+
+main {
+  display: flex;
+  flex-flow: row wrap;
+}
+
+section {
+  display: flex;
+}
+
+.article-section {
+  flex-flow: row wrap;
+  width: 60vw;
+}
+
+.portrait-section {
+  width: 40vw;
+}
+
+article {
+  display: flex;
+  flex-direction: column;
+}
+
 /*----------start text styles----------*/
 
 h1, p, button, h3 {
-  color: white;
+  color: #FFFFFF;
 }
 
-h1, button {
+h1 {
+  font-size: 2.2vw;
   font-weight: 600;
+  margin-bottom: 1.3vw;
 }
 
 p {
+  font-size: 1.3vw;
   font-weight: 300;
+  line-height: 2.1vw;
+  margin-bottom: 1vw;
 }
 
 /*----------end text styles----------*/
+/*----------start intro article styles----------*/
+
+.article-1 {
+  background-color: #24B5FF;
+  height: 33.3333vh;
+  padding: 3.8vw 1vw 0vw 2.5vw;
+  width: 40vw;
+}
+
+.intro-buttons {
+  display: flex;
+  flex-direction: row;
+}
+
+.intro-buttons button {
+  background-color: transparent;
+  border: .1vw solid #FFFFFF;
+  display: flex;
+  font-size: 1.2vw;
+  height: 3.8vw;
+  justify-content: center;
+  line-height: 2.4vw;
+  margin-right: 1vw;
+  width: 11vw;
+}
+
+.button-icon {
+  height: 1.5vw;
+  margin: .3vw;
+}
+
+/*----------end intro article styles----------*/
 /*----------start card styles----------*/
 
-/*----------end card styles----------*/
+.half-width {
+  align-items: center;
+  justify-content: center;
+  height: 33.3333vh;
+  width: 20vw;
+}
 
-/*1 & 5 {
-  background-color: #24B5FF;
-}*/
-
-/*3 & 7 {
-  background-color: #0077B2;
-}*/
-
-/*2 {
+.article-2 {
   background-color: #FFBD6B;
-}*/
+}
 
-/*6 & 8 {
-  background-color: #FFA534;
-}*/
+.article-3 {
+  background-color: #0077B2;
+}
 
-/*4 {
+.article-4 {
   background-color: #B26300;
-}*/
+}
+
+.article-5 {
+  background-color: #24B5FF;
+}
+
+.article-6 {
+  background-color: #FFA534;
+}
+
+.article-7 {
+  background-color: #0077B2;
+}
+
+.article-8 {
+  background-color: #FFA534;
+}
+
+h3 {
+  font-size: 1.1vw;
+  margin-top: .5vw;
+  width: auto;
+}
+
+.card-icon {
+  width: 30%;
+}
+
+/*----------end card styles----------*/
+/*----------start portrait article styles----------*/
+
+.portrait-section {
+  height: 100vh;
+  justify-content: flex-end;
+  overflow: hidden;
+}
+
+.three-dots {
+  align-self: flex-start;
+  height: 1.5vw;
+  margin-top: 1vw;
+  position: absolute;
+  width: 5vw;
+  z-index: 2;
+}
+
+.arrow-buttons {
+  align-self: center;
+  display: flex;
+  justify-content: space-between;
+  position: absolute;
+  width: 40vw;
+  z-index: 2;
+}
+
+.character-portrait {
+  align-self: center;
+  width: 40vw;
+  z-index: 1;
+}
+
+.arrow-icon {
+  height: 1.5vw;
+}
+
+.white-dot {
+  background-color: #FFFFFF;
+  border-radius: .45vw;
+  display: inline-block;
+  height: .9vw;
+  margin-right: .3vw;
+  width: .9vw;
+}
+
+.transparent-dot {
+  background-color: #FFFFFF;
+  border-radius: .45vw;
+  display: inline-block;
+  height: .9vw;
+  margin-right: .3vw;
+  opacity: .3;
+  width: .9vw;
+}
+
+.left-arrow, .right-arrow {
+  background-color: rgba(0, 0, 0, .5);
+  border: .3vw solid rgba(255, 255, 255, .5);
+  border-radius: 2vw;
+  height: 4vw;
+  margin: 1.5vw;
+  width: 4vw;
+}
+
+/*----------end portrait article styles----------*/
+/*----------end desktop styles----------*/
+/*----------start tablet styles----------*/
+
+
+
+/*----------end tablet styles----------*/
+/*----------start mobile styles----------*/
+
+
 
 /*----------end mobile styles----------*/
