@@ -7,7 +7,7 @@ In the course of my studies at Turing, I was tasked with recreating the followin
 
 ![The Original Composition](images/static-comp-challenge-1.jpg "The Original Version of the Composition")
 
-To stretch my creativity muscles, I made a simple character-sheet profile page for a revolutionary Pathfinder Bard named Antigone Malbec. The colors were chosen using the online Adobe color wheel, set to the "complementary" palet selector: https://color.adobe.com/create/color-wheel/ . The icons were sourced from https://game-icons.net/ and https://www.flaticon.com/ .
+To stretch my creativity muscles, I made a simple character-sheet profile page for a revolutionary Pathfinder Bard named Antigone Malbec. The character portrait was sourced from here: https://www.artstation.com/artwork/8NJgq . The colors were chosen using the online Adobe color wheel, set to the "complementary" palet selector: https://color.adobe.com/create/color-wheel/ . The icons were sourced from https://game-icons.net/ and https://www.flaticon.com/ .
 
 ### My Version on Desktop:
 
